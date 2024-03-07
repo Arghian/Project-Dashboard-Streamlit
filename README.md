@@ -17,22 +17,22 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset di B
 ## Instalasi
 
 - Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
-'''
+```
 git clone https://github.com/Arghian/Project-Dashboard-Streamlit
-'''
+```
 Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
-'''
+```
 pip install streamlit
 pip install -r dashboard/requirements.txt
-'''
+```
 
 ## Penggunaan
 
 - Masuk kedalam ke direktori proyek
-'''
+```
 cd dicoding/dashboard/
 streamlit run main.py
-'''
+```
 
 
 

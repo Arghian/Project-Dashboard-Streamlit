@@ -16,23 +16,23 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset di B
 
 ## Instalasi
 
-1. Masukan file-file yang berada di 6. Kebutuhan Tambahan dan 4. Requirements kedalam google colab:
-   all_data.csv
-   func.py
-   gcl.png
-   requirements.txt
-
-2. Masukan juga file dashboard_arghian_faizal_y.py di 3. Python Dashbboard
+- Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+'''
+git clone https://github.com/Arghian/Project-Dashboard-Streamlit
+'''
+Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
+'''
+pip install streamlit
+pip install -r dashboard/requirements.txt
+'''
 
 ## Penggunaan
 
-1. Buka google colab
-2. Masukan syntax berikut kedalam google colab > ! pip install streamlit -q
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run dashboard_arghian_faizal_y.py & npx localtunnel --port 8501
-3. Klik link 'your link is:'
-4. Lalu masukan password berupa ip address yang telah diberikan diatas hasil syntax > [..................] \ fetchMetadata: sill resolveWithNewModule yargs@17.1.1 ch
-Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+- Masuk kedalam ke direktori proyek
+'''
+cd dicoding/dashboard/
+streamlit run main.py
+'''
 
 
 

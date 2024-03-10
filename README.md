@@ -21,6 +21,6 @@ pip install -r Project-Dashboard-Streamlit/requirements.txt
 - Masuk kedalam ke direktori proyek
 ```
 cd Project-Dashboard-Streamlit/
-streamlit run dashboard_arghian_faizal_y.py
+streamlit run main.py
 ```
 atau bisa dengan mengunjungi website yang telah dibuat: https://project-dashboard-app-r6sjb8pwxtiugeqwm7zuhw.streamlit.app/

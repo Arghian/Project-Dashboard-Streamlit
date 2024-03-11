@@ -162,7 +162,6 @@ ax.plot(
     color="#90CAF9"
 )
 
-st.write("""Terlihat pada grafik diatas, Produk yang paling banya terjual adalah bed_bath_table. dan produk yang paling sedikit terjual adalah auto.""")
 ax.tick_params(axis="x", rotation=45)
 ax.tick_params(axis="y", labelsize=15)
 st.pyplot(fig)
@@ -190,7 +189,6 @@ ax.plot(
 ax.tick_params(axis="x", rotation=45)
 ax.tick_params(axis="y", labelsize=15)
 st.pyplot(fig)
-st.write("""Terlihat pada grafik diatas bahwa terjadi penurunan signifikan pada bulan September dan mengalami penaikan yang signifikan pada bulan November.""")
 
 # Customer Demographic
 st.subheader("Customer Demographic")
